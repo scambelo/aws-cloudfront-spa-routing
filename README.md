@@ -53,7 +53,7 @@ cdk deploy
 ```
 
 ## Customization
-This Lambda function redirects to `/index.html` when a route is requested by default. However, there are situations where is necessary to locate `index.html` object inside a subdirectory. An example of this is having two or more Angular deployments under the same CloudFormation, for example `/app1/index.html` and `/app2/index.html`
+This CloudFront Function redirects to `/index.html` when a route is requested by default. However, there are situations where is necessary to locate `index.html` object inside a subdirectory. An example of this is having two or more Angular deployments under the same CloudFormation, for example `/app1/index.html` and `/app2/index.html`
 
 To allow this, it is possible to indicate the directory level where the `index.html` is located by setting `level` variable at the beginning of the code.
 

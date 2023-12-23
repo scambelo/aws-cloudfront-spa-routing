@@ -1,6 +1,6 @@
 *.js
 !jest.config.js
-!function-code/spa-routing.js
+!sources/function-code/spa-routing.js
 *.d.ts
 node_modules
 
